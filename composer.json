@@ -1,0 +1,31 @@
+{
+    "name": "amartinno1/typo3-type-converter-example",
+    "type": "typo3-cms-extension",
+    "description": "Your description goes here.",
+    "keywords": [
+        "TYPO3 CMS",
+        "Extension",
+        "Example",
+        "DDEV"
+    ],
+    "homepage": "https://github.com/AMartinNo1/typo3_type_converter_example",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Alexander Nostadt",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "typo3/cms-core": "^8.7 || ^9.5 || ^10.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "AMartinNo1\\Typo3TypeConverterExample\\": "Classes"
+        }
+    },
+    "replace": {
+        "typo3-ter/typo3_type_converter_example": "*"
+    }
+}
